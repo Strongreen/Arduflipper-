@@ -1,9 +1,9 @@
-ArduFlipper one pins .
+ArduFlipper um pinos.
 
-Because the OLED display uses I2C communication protocol, wiring is very simple. You just need to connect to the Arduino Uno I2C pins as shown in the table below.
+Como o display OLED usa o protocolo de comunicação I2C, a fiação é muito simples. Você só precisa conectar os pinos I2C do Arduino Uno conforme a tabela abaixo.
 
-oled - Pins Arduino 
-( note if your oled has other adress then 0X3C , change display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  in Arduino sketch to correct i2c adress
+oled - Pinos Arduino
+(note que se o seu oled tiver outro endereço que 0X3C, altere display.begin(SSD1306_SWITCHCAPVCC, 0x3C); no esboço do Arduino para corrigir o endereço i2c
 
 /////////////////////
 Vin	     5V
@@ -23,10 +23,11 @@ VERT     A0
 HORIZ    A!
 /////////////////////////
 
-(NOTE ! in EU whe use 433 Mhz and in US 315 , for the tesla charge port ! ) 
-buy the one you think you wil use the most in your country )
+(NOTA! na UE quando usamos 433 Mhz e nos EUA 315, para a porta de carregamento Tesla!)
+compre aquele que você acha que vai usar mais no seu país)
 
-Pin wiring 433 Mhz Rx Module 
+Fiação de pinos Módulo Rx de 433 Mhz
+
 Module - Arduino pins
 /////////////////////////
 Vin      5v
@@ -34,7 +35,7 @@ Data     3
 GND      GND
 /////////////////////////
 
-Pin wiring 433 Mhz Tx Module 
+Fiação de pinos Módulo Tx de 433 Mhz
 Module - Arduino pins
 /////////////////////////
 Vin      5v
@@ -43,4 +44,4 @@ GND      GND
 /////////////////////////
 
 
-wil ad more explanation soon !
+wil anúncio mais explicação em breve!
